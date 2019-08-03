@@ -8,8 +8,7 @@ class Application
   end 
   
   if req.path.match(/items/)
-      @@items.each do |item|
-        resp.write "#{item}\n"
-      end
-    elsif req.path.match(/search/)
+    
+  else 
+  end 
 end 
