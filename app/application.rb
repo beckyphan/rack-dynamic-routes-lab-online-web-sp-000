@@ -3,5 +3,5 @@ require 'pry'
 class Application
   
   def call(env)
-    resp = 
+    resp = Rack::Response.New
 end 
